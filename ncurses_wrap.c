@@ -2726,6 +2726,8 @@ static void init_safe_functions(void)
 }
 void Init_ncurses_bin(void)
 {
+    setlocale(LC_ALL, "");
+
     mNcurses = rb_define_module("Ncurses");
     eNcurses = rb_define_class_under(mNcurses, "Exception", rb_eRuntimeError);
     rb_iv_set(mNcurses, "@windows_hash", rb_hash_new());

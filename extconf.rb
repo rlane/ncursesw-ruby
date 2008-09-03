@@ -38,8 +38,8 @@ else
   raise "ncurses header file not found"
 end
 
-if have_library("ncurses", "wmove")
-  curses_lib = "ncurses"
+if have_library("ncursesw", "wmove")
+  curses_lib = "ncursesw"
 elsif have_library("pdcurses", "wmove")
   curses_lib = "pdcurses"
 else
@@ -123,11 +123,11 @@ have_func("attr_get")
 
 puts "checking for the panel library..."
 if have_header("panel.h")
-  have_library("panel", "panel_hidden")
+  have_library("panelw", "panel_hidden")
 end
 puts "checking for the form library..."
 if have_header("form.h")
-  have_library("form", "new_form")
+  have_library("formw", "new_form")
 end
 puts "checking for the menu library..."
 if have_header("menu.h")
