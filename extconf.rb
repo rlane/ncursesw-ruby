@@ -134,4 +134,4 @@ if have_header("menu.h")
   have_library("menu", "new_menu")
 end
 
-create_makefile('ncurses_bin')
+create_makefile('ncursesw_bin')

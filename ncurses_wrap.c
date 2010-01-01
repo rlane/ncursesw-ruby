@@ -2724,7 +2724,7 @@ static void init_safe_functions(void)
     NCFUNC(setlocale, 2);
 #endif
 }
-void Init_ncurses_bin(void)
+void Init_ncursesw_bin(void)
 {
     setlocale(LC_ALL, "");
 
