@@ -65,6 +65,7 @@
 */
 
 #include "ncurses_wrap.h"
+#include "compat.h"
 #ifdef HAVE_LOCALE_H
 #include <locale.h>
 #endif

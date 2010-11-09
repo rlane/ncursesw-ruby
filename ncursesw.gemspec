@@ -1,17 +1,17 @@
 --- !ruby/object:Gem::Specification 
 name: ncursesw
 version: !ruby/object:Gem::Version 
-  version: 1.2.4.1
+  version: 1.2.4.2
 platform: ruby
 authors: []
 
 bindir: 
 cert_chain: 
-date: 2009-12-31 21:27:27 -05:00
+date: 2010-11-9 13:45:50 -08:00
 default_executable: 
 dependencies: []
 
-description: Hacked up version of ncurses gem that supports wide characters and ruby1.9.1. Original ncurses gem by t-peters@users.berlios.de.
+description: Hacked up version of ncurses gem that supports wide characters and ruby1.9.2. Original ncurses gem by t-peters@users.berlios.de.
 email: lanerl@gmail.com
 executables: []
 
@@ -47,6 +47,7 @@ files:
 - panel_wrap.h
 - menu_wrap.c
 - menu_wrap.h
+- compat.h
 has_rdoc: true
 homepage: http://ncurses-ruby.berlios.de/
 licenses: []

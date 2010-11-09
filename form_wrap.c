@@ -29,6 +29,7 @@
 
 #include "form_wrap.h"
 #include "ncurses_wrap.h"
+#include "compat.h"
 
 VALUE mForm;
 VALUE cFIELD;

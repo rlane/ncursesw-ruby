@@ -23,6 +23,7 @@
 
 #include "panel_wrap.h"
 #include "ncurses_wrap.h"
+#include "compat.h"
 
 VALUE mPanel;
 VALUE cPANEL;
