@@ -1,7 +1,7 @@
 --- !ruby/object:Gem::Specification 
 name: ncursesw
 version: !ruby/object:Gem::Version 
-  version: 1.2.4.2
+  version: 1.2.4.3
 platform: ruby
 authors: []
 
