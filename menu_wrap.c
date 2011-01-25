@@ -28,6 +28,7 @@
 
 #include "menu_wrap.h"
 #include "ncurses_wrap.h"
+#include "compat.h"
 
 VALUE mMenu;
 VALUE cITEM;
